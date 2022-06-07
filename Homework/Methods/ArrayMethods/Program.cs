@@ -135,6 +135,7 @@ int[] getRowSumsMatrixInt(int[,] matrix)
             result[i] += matrix[i, j];
         }
     }
+    return result; 
 }
 // test
 int[,] matrix = generateIntMatrix(3, 4, 10);
